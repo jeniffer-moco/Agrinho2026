@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
-    <Meta charset = "UTF-8"/>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title> AgroTech | Estudo e Inovação  </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026</title>
+    <style>
+        /* CSS super básico */
+        body { font-family: Arial; background: #f0f5f0; color: #333; padding: 20px; }
+        header { background: #2e7d32; color: white; padding: 10px; text-align: center; }
+        
+        /* Flexbox exigido pela professora */
+        .caixa { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+        .botoes { display: flex; gap: 10px; }
+        
+        /* Efeito Hover */
+        button { background: #2e7d32; color: white; border: none; padding: 10px; cursor: pointer; }
+        button:hover { background: #1b5e20; }
+        
+        /* Classe para o Modo Escuro */
+        .modo-escuro { background: #222; color: #fff; }
+        
+        /* Media Query para celular */
+        @media (max-width: 500px) { .botoes { flex-direction: column; } }
+    </style>
 </head>
-<body bgcolor="green">
-    <main>
-        <div class="passo" id="passo-0">
-            <p>O agro está crescendo cada vez mais, e a tecnologia e a inovação estão sempre presentes para colaborar e moldar o futuro da agricultura paranaense. Para saber mais sobre a tecnologia na produção agrícola, embarque nesta aventura e descubra como drones, sensores, inteligência artificial e biotecnologia são utilizados atualmente para otimizar a produção.</p>
-            <button class="btn-proximo" data-proximo="1">Drones</button>
-            <button class="btn-proximo" data-proximo="2">Sensores</button>
-            <button class="btn-proximo" data-proximo="3">Inteligência Artificial</button>
-            <button class="btn-proximo" data-proximo="4">Biotecnologia</button>
+<body>
+
+    <header>
+        <h1>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h1>
+        <p>#agrinho2026</p>
+    </header>
+
+    <main class="caixa">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Seu nome">
+            <button onclick="entrar()">Entrar</button>
+            <button onclick="tema()">🌓 Tema</button>
         </div>
-         <div class="passo" id="passo-1">
-            <p>Se interessou por essas tecnologias? Aqui você pode encontrar os melhores preços de drones e sensores mais utilizados no mercado atualmente.</p>
-            <button class="btn-proximo" data-proximo="5">Valores dos Drones</button>
-            <button class="btn-proximo" data-proximo="6">Valores dos Sensores</button>
+
+        <h3 id="boas-vindas">Olá, visitante!</h3>
+
+        <div class="botoes">
+            <button onclick="info('Drone', 'R$ 50.000', 'Aplica produtos apenas onde há pragas, poupando o solo do PR.')">🛸 Drone</button>
+            <button onclick="info('IA', 'R$ 500/mês', 'Preve o clima para evitar o desperdício de sementes.')">🧠 IA</button>
+            <button onclick="info('Sensores', 'R$ 1.500', 'Medem a umidade da terra para economizar água dos rios.')">🌡️ Sensores</button>
+        </div>
+
+        <div id="resultado" style="background: #ddd; padding: 15px; display: none; color: #000; border-radius: 5px;">
+            <h4 id="res-titulo"></h4>
+            <p id="res-preco"></p>
+            <p id="res-desc"></p>
         </div>
     </main>
 
+    <footer>
+        <p>Projeto no <a href="SEU_LINK_AQUI" target="_blank">GitHub</a></p>
+    </footer>
 
+    <script>
+        // Função do Modo Escuro
+        function tema() { 
+            document.body.classList.toggle('modo-escuro'); 
+        }
 
+        // Função que usa variável para mudar o texto (DOM)
+        function entrar() {
+            let usuario = document.getElementById('nome').value; // Variável
+            document.getElementById('boas-vindas').innerText = "Olá, " + usuario + "!"; // Altera o DOM
+        }
+
+        // Função que mostra os dados da tecnologia clicada
+        function info(nome, preco, texto) {
+            document.getElementById('res-titulo').innerText = nome;
+            document.getElementById('res-preco').innerText = "Preço médio: " + preco;
+            document.getElementById('res-desc').innerText = texto;
+            document.getElementById('resultado').style.display = "block"; // Mostra a div
+        }
+    </script>
 </body>
 </html>
