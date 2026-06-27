@@ -4,79 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrinho 2026</title>
-    <style>
-        /* CSS super básico */
-        body { font-family: Arial; background: #f0f5f0; color: #333; padding: 20px; }
-        header { background: #2e7d32; color: white; padding: 10px; text-align: center; }
-        
-        /* Flexbox exigido pela professora */
-        .caixa { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
-        .botoes { display: flex; gap: 10px; }
-        
-        /* Efeito Hover */
-        button { background: #2e7d32; color: white; border: none; padding: 10px; cursor: pointer; }
-        button:hover { background: #1b5e20; }
-        
-        /* Classe para o Modo Escuro */
-        .modo-escuro { background: #222; color: #fff; }
-        
-        /* Media Query para celular */
-        @media (max-width: 500px) { .botoes { flex-direction: column; } }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h1>
+        <h1>AgroTech, Estudo e Inovação</h1>
         <p>#agrinho2026</p>
     </header>
 
-    <main class="caixa">
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" placeholder="Seu nome">
-            <button onclick="entrar()">Entrar</button>
-            <button onclick="tema()">🌓 Tema</button>
-        </div>
+    <main>
+        <section class="formulario">
+            <label for="userName">Seu Nome:</label>
+            <input type="text" id="userName" placeholder="Digite aqui...">
+            <button onclick="boasVindas()">Salvar</button>
+            <button onclick="toggleTheme()">🌓 Mudar Tema</button>
+            <p id="greetingMessage">Olá! Bem-vindo ao site de jeny.</p>
+        </section>
 
-        <h3 id="boas-vindas">Olá, visitante!</h3>
+        <section class="conteudo">
+            <h2>Tecnologias no Campo Paranaense</h2>
+            
+            <div class="card">
+                <h3>Drones Agrícolas</h3>
+                <p>Aplicam .</p>
+                <button onclick="verPreco('drone')">Ver Preço</button>
+                <img src="img/drone.jpg" alt="drone branco voando sobre campo de cultivo">
+            </div>
 
-        <div class="botoes">
-            <button onclick="info('Drone', 'R$ 50.000', 'Aplica produtos apenas onde há pragas, poupando o solo do PR.')">🛸 Drone</button>
-            <button onclick="info('IA', 'R$ 500/mês', 'Preve o clima para evitar o desperdício de sementes.')">🧠 IA</button>
-            <button onclick="info('Sensores', 'R$ 1.500', 'Medem a umidade da terra para economizar água dos rios.')">🌡️ Sensores</button>
-        </div>
+            <div class="card">
+                <h3>Inteligência Artificial</h3>
+                <p>Analisa o clima e o solo para evitar o desperdício de sementes e combustível.</p>
+                <button onclick="verPreco('ia')">Ver Preço</button>
+                 <img src="img/ia.jpg" alt="Gráficos de inteligência artificial no campo">
+            </div>
 
-        <div id="resultado" style="background: #ddd; padding: 15px; display: none; color: #000; border-radius: 5px;">
-            <h4 id="res-titulo"></h4>
-            <p id="res-preco"></p>
-            <p id="res-desc"></p>
-        </div>
+            <div class="card">
+                <h3>Sensores de Solo</h3>
+                <p>Medem a umidade da terra em tempo real para economizar a água dos nossos rios.</p>
+                <button onclick="verPreco('sensor')">Ver Preço</button>
+                <img src="img/sensor.jpg" alt="Sensores instalados na terra">
+            </div>
+        </section>
+
+        <section id="painel-preco">
+            <h3 id="titulo-preco">Preço Estimado</h3>
+            <p id="texto-preco">Clique em um botão acima para ver o custo.</p>
+        </section>
     </main>
 
     <footer>
-        <p>Projeto no <a href="SEU_LINK_AQUI" target="_blank">GitHub</a></p>
+        <p>Projeto Escolar - Concurso Agrinho</p>
+        <p>Imagens gratuitas do Pixabay</p>
     </footer>
 
-    <script>
-        // Função do Modo Escuro
-        function tema() { 
-            document.body.classList.toggle('modo-escuro'); 
-        }
-
-        // Função que usa variável para mudar o texto (DOM)
-        function entrar() {
-            let usuario = document.getElementById('nome').value; // Variável
-            document.getElementById('boas-vindas').innerText = "Olá, " + usuario + "!"; // Altera o DOM
-        }
-
-        // Função que mostra os dados da tecnologia clicada
-        function info(nome, preco, texto) {
-            document.getElementById('res-titulo').innerText = nome;
-            document.getElementById('res-preco').innerText = "Preço médio: " + preco;
-            document.getElementById('res-desc').innerText = texto;
-            document.getElementById('resultado').style.display = "block"; // Mostra a div
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
