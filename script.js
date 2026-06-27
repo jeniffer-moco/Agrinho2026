@@ -26,6 +26,7 @@ function verPreco(tecnologia) {
         
         texto.innerHTML = "<p>Um modelo básico ou de entrada para pulverização está custando em torno de R$ 30.000 a R$ 50.000. São ótimos drones para pequenas propriedades.</p>" + 
                           "<p>Já os modelos maiores, usados em grandes plantações no Paraná, podem passar de R$ 150.000,00.</p>";
+                          <a> href="https://encurtador.com.br/RAvQ"</a>
         
         caixa.style.display = "block";
     } 
