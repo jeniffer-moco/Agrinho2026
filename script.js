@@ -24,8 +24,10 @@ function verPreco(tecnologia) {
         let caixa = document.getElementById('preco-drone');
         let texto = document.getElementById('texto-drone');
         
+        // link que direciona para um site externo
         texto.innerHTML = "<p>Um modelo básico ou de entrada para pulverização está custando em torno de R$ 30.000 a R$ 50.000. São ótimos drones para pequenas propriedades.</p>" + 
-                          "<p>Já os modelos maiores, usados em grandes plantações no Paraná, podem passar de R$ 150.000,00.</p>";
+                          "<p>Já os modelos maiores, usados em grandes plantações no Paraná, podem passar de R$ 150.000,00.</p>" +
+                          "<p><strong>Quer ver um exemplo?</strong> <a href='https://www.agroboxdrones.com/drone-agricola-dji-25?parceiro=3&srsltid=AfmBOor69XGDpr_gpkG-vshrI8k4watmdLjMz6o_WzC8lXqZV0WRR1II2J0' target='_blank'>Clique aqui para ver o preço do Drone DJI na loja</a>.</p>";
         
         caixa.style.display = "block";
     } 
