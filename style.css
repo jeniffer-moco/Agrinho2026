@@ -1,24 +1,22 @@
-/* Cores padrões do site */
+/* Cores para o Modo Claro e Escuro */
 :root {
     --fundo: #f4f9f4;
     --texto: #333333;
-    --card-fundo: #ffffff;
+    --card: #ffffff;
     --verde: #2e7d32;
 }
-
-/* Cores quando o Modo Escuro estiver ativo */
 .dark-mode {
     --fundo: #1e1e1e;
     --texto: #f0f0f0;
-    --card-fundo: #2d2d2d;
-    --verde: #81c784;
+    --card: #2d2d2d;
+    --verde: #3f8b43;
 }
 
+/* Configuração Geral */
 body {
     background-color: var(--fundo);
     color: var(--texto);
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 20px;
 }
 
@@ -26,61 +24,56 @@ header {
     text-align: center;
     background-color: var(--verde);
     color: white;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 8px;
     margin-bottom: 20px;
 }
 
-.formulario {
-    background-color: var(--card-fundo);
+/* Blocos do Formulário e dos Cards */
+.formulario, .card {
+    background-color: var(--card);
+    border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
-/* Estilo para organizar as fotos e os textos em blocos (Flexbox) */
-.conteudo {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card {
-    background-color: var(--card-fundo);
-    border: 1px solid #ccc;
-    padding: 15px;
-}
-
-/* Configuração básica para as fotos não quebrarem a tela */
-.card img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-}
-
+/* Botões */
 button {
     background-color: var(--verde);
     color: white;
     border: none;
     padding: 8px 15px;
     cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+button:hover { 
+    opacity: 0.8; 
 }
 
-/* Efeito básico ao passar o mouse */
-button:hover {
-    opacity: 0.8;
+/* Imagens das Tecnologias */
+.card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+    border-radius: 6px;
 }
 
-#painel-preco {
-    background-color: var(--card-fundo);
+/* Caixinha de Preço */
+.painel-preco {
+    background-color: var(--fundo);
     border-left: 5px solid var(--verde);
-    padding: 15px;
-    margin-top: 20px;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 4px;
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9rem;
+    opacity: 0.8;
 }

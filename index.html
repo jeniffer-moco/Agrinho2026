@@ -27,29 +27,42 @@
             
             <div class="card">
                 <h3>Drones Agrícolas</h3>
-                <p>Aplicam .</p>
+                <p>Aplicam defensivos apenas onde há pragas, economizando produto e protegendo o solo.</p>
                 <button onclick="verPreco('drone')">Ver Preço</button>
-                <img src="img/drone.jpg" alt="drone branco voando sobre campo de cultivo">
+                
+                <div id="preco-drone" class="painel-preco" style="display: none;">
+                    <h3>Custo do Drone</h3>
+                    <div id="texto-drone"></div>
+                </div>
+
+                <img src="" alt="">
             </div>
 
             <div class="card">
                 <h3>Inteligência Artificial</h3>
                 <p>Analisa o clima e o solo para evitar o desperdício de sementes e combustível.</p>
                 <button onclick="verPreco('ia')">Ver Preço</button>
-                 <img src="img/ia.jpg" alt="Gráficos de inteligência artificial no campo">
+                
+                <div id="preco-ia" class="painel-preco" style="display: none;">
+                    <h3>Custo da IA</h3>
+                    <div id="texto-ia"></div>
+                </div>
+
+                <img src="img/ia.jpg" alt="Gráficos de inteligência artificial no campo">
             </div>
 
             <div class="card">
                 <h3>Sensores de Solo</h3>
                 <p>Medem a umidade da terra em tempo real para economizar a água dos nossos rios.</p>
                 <button onclick="verPreco('sensor')">Ver Preço</button>
+                
+                <div id="preco-sensor" class="painel-preco" style="display: none;">
+                    <h3>Custo do Sensor</h3>
+                    <div id="texto-sensor"></div>
+                </div>
+
                 <img src="img/sensor.jpg" alt="Sensores instalados na terra">
             </div>
-        </section>
-
-        <section id="painel-preco">
-            <h3 id="titulo-preco">Preço Estimado</h3>
-            <p id="texto-preco">Clique em um botão acima para ver o custo.</p>
         </section>
     </main>
 
