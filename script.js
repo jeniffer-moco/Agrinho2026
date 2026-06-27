@@ -34,7 +34,7 @@ function verPreco(tecnologia) {
         let texto = document.getElementById('texto-ia');
         
         texto.innerHTML = "<p>Os sistemas de Inteligência Artificial para análise de lavoura geralmente funcionam por assinaturas mensais ou anuais.</p>" + 
-                          "<p>Os planos básicos para pequenos produtores custam a partir de R$ 500,00 por mês.</p>";
+                          "<p>Os planos básicos para pequenos produtores custam a partir de R$ 500 por mês.</p>";
         
         caixa.style.display = "block";
     } 
@@ -42,7 +42,7 @@ function verPreco(tecnologia) {
         let caixa = document.getElementById('preco-sensor');
         let texto = document.getElementById('texto-sensor');
         
-        texto.innerHTML = "<p>Cada estação conectada com sensores de umidade e temperatura custa em média R$ 1.500,00.</p>" + 
+        texto.innerHTML = "<p>Cada estação conectada com sensores de umidade e temperatura custa em média R$ 1.500.</p>" + 
                           "<p>Para cobrir uma propriedade inteira, o valor total depende de quantas peças o agricultor vai precisar instalar na terra.</p>";
         
         caixa.style.display = "block";
