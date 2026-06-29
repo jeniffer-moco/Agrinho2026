@@ -1,7 +1,7 @@
 AgroTech, Estudo e Inovação — Agrinho 2026
 
 Objetivo e Justificativa do Projeto:
- O objetivo deste site é explicar ao produtor como funcionam as tecnologias mais utilizadas no campo atualmente, trazendo os valores estimados das mesmas. A tecnologia no campo paranaense transformou a maneira como cultivamos nossos alimentos, e este projeto mostra de maneira interativa e visual como inovações — como Drones Agrícolas, Inteligência Artificial e Sensores de Solo — promovem sustentabilidade, economia de recursos e eficiência, tanto para pequenos quanto para grandes produtores rurais. 
+ O objetivo deste site é explicar ao produtor como funcionam as tecnologias mais utilizadas no campo atualmente, trazendo os valores estimados das mesmas. A tecnologia no campo paranaense transformou a maneira como cultivamos nossos alimentos, e este projeto mostra como Drones Agrícolas, Inteligência Artificial e Sensores de Solo, promovem sustentabilidade, economia de recursos e eficiência, tanto para pequenos quanto para grandes produtores rurais. 
 
 Instruções de Uso
 O site não apresenta dificuldades para uso, portanto, apenas com o rolamento da tela você consegue acessar toda a página. A navegação foi feita de forma simples e objetiva: se o usuário se interessar por alguma das inovações mostradas, é só clicar no botão correspondente para visualizar o valor estimado e acessar um link externo para outros sites que ofereçam o produto real.
