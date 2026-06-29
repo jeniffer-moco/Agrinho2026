@@ -2,7 +2,7 @@
 :root {
     --fundo: white;
     --texto: #333333;
-    --card: beige;
+    --card: rgb(223, 247, 242);
     --verde: #2e7d68;
 }
 .dark-mode {
@@ -16,8 +16,15 @@
 body {
     background-color: var(--fundo);
     color: var(--texto);
-    font-family: Arial, sans-serif;
+    font-family: "Cantarell", sans-serif;
     padding: 20px;
+    line-height: 1.6;
+}
+
+/* Configuração dos Títulos */
+h1, h2, h3 {
+    font-family: "Ultra", serif;
+    font-weight: normal;
 }
 
 header {
