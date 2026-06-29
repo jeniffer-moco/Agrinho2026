@@ -12,9 +12,7 @@ Para dar vida à interface e construir uma identidade visual própria e harmôni
 * **CSS3:** Estilização autoral completa, focada em um layout moderno, responsivo e com suporte a temas dinâmicos (Modo Claro e Modo Escuro).
 * **JavaScript (Vanilla JS):** Criação de toda a lógica interativa da página, manipulação do DOM e controle dos estados de exibição dos blocos de preço.
 
----
-
-## ⚙️ Detalhes de Implementação e Organização
+Detalhes de Implementação e Organização
 O projeto foi desenvolvido seguindo as melhores práticas de programação e os critérios exigidos pelo concurso:
 
 * **Organização de Pastas:** Todos os recursos visuais do site estão devidamente categorizados. As imagens de satélite e sensores encontram-se na pasta dedicada `/img`.
@@ -22,21 +20,16 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e os 
 * **Comentários Relevantes:** O arquivo `script.js` possui comentários breves e explicativos para cada função (como o controle de tema e a lógica de exibição de preços). O arquivo de estilos CSS também está estruturado e documentado por seções.
 * **Console Limpo:** O projeto foi exaustivamente testado utilizando as ferramentas de desenvolvedor do navegador, garantindo que os caminhos de arquivos funcionem perfeitamente e o console apresente **zero erros**.
 
----
 
-## 🎨 Originalidade e Identidade Visual
+Originalidade e Identidade Visual
 * **Conteúdo Autoral:** Todo o roteiro explicativo e a descrição da usabilidade do site foram desenvolvidos de forma 100% autoral para o concurso.
 * **Customização e Mídias:** As imagens utilizadas foram selecionadas em bancos de dados gratuitos (como o Pixabay) e passaram por tratamento para se adequarem à identidade visual verde/tecnológica do projeto.
 * **Interatividade Perfeita:** O site foge de layouts genéricos ao integrar perfeitamente os efeitos do CSS com funções em JavaScript, permitindo uma transição suave ao revelar informações de mercado com apenas um clique.
 
----
-
-## 📚 Referências Utilizadas
+Referências Utilizadas
 Para a construção dos dados de preços e informações técnicas das tecnologias apresentadas, foram consultados:
 1. **Drones Agrícolas:** Preços e especificações técnicas baseados no modelo DJI obtidos em [AgroBox Drones](https://www.agroboxdrones.com/).
 2. **Inteligência Artificial:** Modelos de agricultura de precisão consultados em [Flypix AI Software](https://flypix.ai/).
 3. **Sensores de Solo:** Parâmetros de prevenção de seca e encharcamento baseados em [Clima e Ambiente](https://www.climaeambiente.com.br/).
 4. **Material de Apoio:** Diretrizes temáticas e pedagógicas do Concurso Agrinho do Paraná.
 
----
-*Projeto Escolar desenvolvido com dedicação para o Concurso Agrinho 2026.*
