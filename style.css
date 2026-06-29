@@ -1,8 +1,8 @@
 /* Cores para o Modo Claro e Escuro */
 :root {
-    --fundo: #f4f9f4;
+    --fundo: #f3d6b2;
     --texto: #333333;
-    --card: #ffffff;
+    --card: #ffd0a7d8;
     --verde: #2e7d32;
 }
 .dark-mode {
