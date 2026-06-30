@@ -25,11 +25,11 @@ Originalidade e Identidade Visual:
 Referências Utilizadas:
 Para a construção dos dados de preços e informações técnicas das tecnologias apresentadas, foram consultados:
 
-GOMES, Jhonatah Albuquerque. Drone pulverizador: guia de escolha para o produtor e lista dos 5 melhores modelos. Agroadvance, 2024. Disponível em: https://agroadvance.com.br/blog-drone-pulverizador-drone-de-pulverizacao/. Acesso em: 26 jun. 2026. 
+GOMES, Jhonatah Albuquerque. Drone pulverizador: guia de escolha para o produtor e lista dos 5 melhores modelos. Agroadvance, 2024. Disponível em: https://agroadvance.com.br/blog-drone-pulverizador-drone-de-pulverizacao/. Acesso em: 25 jun. 2026. 
 
-SERAPHIM, R. A. 5 Aplicações reais da Inteligência Artificial no agronegócio brasileiro. Blog Agroadvance. 2025. Disponível em: https://agroadvance.com.br/blog-aplicacoes-reais-da-inteligencia-artificiall-no-agro/. Acesso em: 26 jun. 2026.
+SERAPHIM, R. A. 5 Aplicações reais da Inteligência Artificial no agronegócio brasileiro. Blog Agroadvance. 2025. Disponível em: https://agroadvance.com.br/blog-aplicacoes-reais-da-inteligencia-artificiall-no-agro/. Acesso em: 25 jun. 2026.
 
-AGROSMART. Sensores de solo: o que são, como funcionam e benefícios. Campinas: Agrosmart, [s.d.]. Disponível em: https://agrosmart.com.br/blog/sensores-de-solo/. Acesso em: 26 jun. 2026.
+AGROSMART. Sensores de solo: o que são, como funcionam e benefícios. Campinas: Agrosmart, [s.d.]. Disponível em: https://agrosmart.com.br/blog/sensores-de-solo/. Acesso em: 25 jun. 2026.
 
 Drones Agrícolas: Preços e especificações técnicas baseados no modelo DJI obtidos em [AgroBox Drones](https://www.agroboxdrones.com/).
 
@@ -37,6 +37,6 @@ Inteligência Artificial: Modelos de agricultura de precisão consultados em [Fl
 
 Sensores de Solo: Parâmetros de prevenção de seca e encharcamento baseados em [Clima e Ambiente](https://www.climaeambiente.com.br/).
 
-EDU SITES. Como Criar um Site Diferenciado do ZERO com HTML e CSS (Passo a Passo). YouTube, 12 out. 2022. Disponível em: https://www.youtube.com/watch?v=TLUw43Gi7g8. Acesso em: 29 jun. 2026.
+EDU SITES. Como Criar um Site Diferenciado do ZERO com HTML e CSS (Passo a Passo). YouTube, 12 out. 2022. Disponível em: https://www.youtube.com/watch?v=TLUw43Gi7g8. Acesso em: 26 jun. 2026.
 
 Além do auxílio das aulas disponibilizadas pelo Alura.
