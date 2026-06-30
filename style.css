@@ -1,4 +1,4 @@
-/* Cores para o Modo Claro e Escuro */
+/* Edição da cores para o Modo Claro e Escuro */
 :root {
     --fundo: white;
     --texto: #333333;
@@ -27,6 +27,7 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+/* Parte de cima do site */
 header {
     text-align: center;
     background-color: var(--verde);
@@ -36,7 +37,7 @@ header {
     margin-bottom: 20px;
 }
 
-/* Blocos do Formulário e dos Cards */
+/* Blocos do Formulário e das caixinhas das tecnologias */
 .formulario, .card {
     background-color: var(--card);
     border: 1px solid #ccc;
@@ -69,6 +70,28 @@ button:hover {
     border-radius: 6px;
 }
 
+/* Container que segura a imagem */
+.imagem-container {
+    overflow: hidden; /* CORRIGIDO: Corta a imagem quando ela crescer além das bordas */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 15px; /* Adicionado para manter o espaçamento do botão */
+}
+
+/* Imagem dentro do container */
+.imagem-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Garante que a imagem se comporte bem no container */
+    transition: transform 0.5s ease; /* Faz o efeito de crescer ser suave */
+}
+
+/* Efeito ao passar o mouse */
+.imagem-container img:hover {
+    transform: scale(1.05); /* Aumenta 5% do tamanho da imagem */
+}
+
 /* Caixinha de Preço */
 .painel-preco {
     background-color: var(--fundo);
@@ -78,6 +101,7 @@ button:hover {
     border-radius: 4px;
 }
 
+/* Rodapé da página */
 footer {
     text-align: center;
     margin-top: 40px;
